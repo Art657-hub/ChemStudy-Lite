@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000"><title>ChemStudy Lite — химия с пониманием</title>
+  <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#home" aria-label="ChemStudy Lite"><span class="brand-mark">C</span><span>ChemStudy <i>Lite</i></span></a><nav id="nav" aria-label="Основная навигация"><a href="#catalog">Каталог</a><a href="#history">История</a><a href="#admin">Управление</a></nav><button class="button small" id="backup-button">Резервная копия</button></header>
+  <main id="app" tabindex="-1"><div class="loading">Открываем локальную библиотеку…</div></main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <input hidden type="file" id="restore-file" accept="application/json,.json">
+  <script src="data/initial-data.js"></script>
+  <script src="js/database.js"></script><script src="js/router.js"></script><script src="js/catalog.js"></script><script src="js/topics.js"></script><script src="js/editor.js"></script><script src="js/tests.js"></script><script src="js/tasks.js"></script><script src="js/prompts.js"></script><script src="js/importer.js"></script><script src="js/admin.js"></script><script src="js/backup.js"></script><script src="js/app.js"></script>
+</body></html>

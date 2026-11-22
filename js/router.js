@@ -1,0 +1,1 @@
+(function(){function go(hash){location.hash=hash}function current(){return location.hash.slice(1)||'home'}window.CSRouter={go,current,listen(fn){window.addEventListener('hashchange',()=>fn(current()))}}})();
